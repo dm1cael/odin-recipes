@@ -1,10 +1,25 @@
 body {
     background-color: rgb(37, 37, 37);
-    color: white;
+    color: rgb(216, 216, 216);
     
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a,
+a:visited {
+    color: rgb(216, 216, 216);
+}
+
+
+.homepage-content {
+    text-align: center;
+}
+
+.recipe-top {
+    text-align: center;
+}
+
+.homepage-content h1,
 .recipe-title {
     font-size: 24px;
     color: lightgreen;
@@ -20,11 +35,29 @@ body {
     color: lightgreen;
 }
 
-li {
-    font-size: 16px;
+.homepage-content h1 {
+    font-size: 64px;
+    text-decoration: underline;   
 }
 
-a,
-a:visited {
-    color: white;
+.homepage-content a {
+    font-size: 18px;
+    color: lightblue;
+
+    text-decoration: none;
+}
+
+.homepage-content a:hover {
+    text-decoration: underline;
+}
+
+.homepage-content ul {
+    padding: 0;
+}
+
+.homepage-content li {
+    list-style-type: none;
+    font-size: 16px;
+
+    margin-bottom: 8px;
 }
